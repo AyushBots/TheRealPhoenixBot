@@ -20,24 +20,25 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}!
-
-You can find the list of available commands with /help.
+Hello!!🥰 {} , My Name Is {} ❤️
+I am an Advanced AI Powered Group Manager Bot.🔥🔥
+You Can Use Me To Manage Your Groups🏆🏆
+Hit /help To Check All My Commands And How I Works!!!✨✨
+Join @AyushBots To Use This Bot And Frequent Updates✔️✔️
+For Help, Queries and Report Bugs Contact @CyberBoyAyushBot 🎅
 """
 
-BOT_IMAGE = "https://telegra.ph/file/93612a540608640355f20.mp4"
+BOT_IMAGE = "https://telegra.ph/file/80e125b6ca9caa347f24f.jpg"
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
-the things I can help you with.
-If you have any questions on how to use me, head over to @PhoenixSupport
-
-*Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
- - /donate: information about how to donate!
+ey there! My name is *{}*.
+I am an Advanced AI Powered Group Manager Bot.🔥🔥
+For Help, Queries and Report Bugs Contact @CyberBoyAyushBot 🎅
+*Commands Available*:
+ - /start: Star The Bot
+ - /help: Help Commands!!
+ - /help <module name>: Send's You Info Of Particular Module.
+ - /donate: Donate To The Dev
  - /settings:
    - in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
@@ -46,9 +47,7 @@ If you have any questions on how to use me, head over to @PhoenixSupport
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """{0} doesn't currently need any donations.
-However you can donate to the creator of the original source code which {0} \
-is based on:- [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen).""".format(dispatcher.bot.first_name)
+DONATE_STRING = """Thank You For Your Concern And Clicking On Donate Button!! Now We Are Not Accepting Any Donations! Just Say Thank You In @CyberBoyAyushBot""".format(dispatcher.bot.first_name)
 
 IMPORTED = {}
 MIGRATEABLE = []
